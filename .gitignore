@@ -1,0 +1,38 @@
+10K-data/
+
+# --- Python / Backend ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+.flaskenv
+
+# --- Node / Frontend ---
+node_modules/
+dist/
+build/
+.eslintcache
+.stylelintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Databases / Docker ---
+.db_data/
+postgres-data/
+*.sqlite3
+
+# --- IDE / System ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+logs/
